@@ -4,6 +4,7 @@ import { useStore } from '../store/Store'
 import { formatPrice, avgRating, emailOk } from '../lib/utils'
 import { Stars } from '../components/Icons'
 import ProductCard from '../components/ProductCard'
+import SafeImg from '../components/SafeImg'
 
 export default function Product() {
   const { id } = useParams()
